@@ -1,0 +1,77 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+   .navbar-right {
+    margin-top: 10px;
+}
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+.nav>li {
+  
+    top: 35px;
+   
+
+}
+.navbar-brand img {
+    width: 50%;
+    left: 10px;
+   
+    top: 10px;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.nav>li {
+
+    top: -22px;
+ 
+} 
+
+.navbar-brand img {
+    width: 50%;
+    left: 10px;
+   
+    top: 10px;
+}
+.nav>li>a {
+    position: relative;
+    margin-bottom: 36px;
+    margin-top: 23px;
+    font-size: 22px;
+    top: 100px;
+    margin-right: 172px;
+}
+
+
+
+}
+/*mobile-layout*/
+@media only screen and (max-width: 767px) { 
+ 
+
+.nav>li>a {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+  
+h2 {
+    font-size: 14px;
+    line-height: 28px;
+
+}
+.details-text h3 {
+    font-size: 11px;
+    line-height: 24px;
+}
+.contact h2 {
+
+    margin-bottom: 10px;
+}
+.footer-text p {
+    font-size: 12px;
+    padding: 5px;
+}
+}

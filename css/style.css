@@ -1,0 +1,194 @@
+/*Custom style*/
+/* Copyright @2018 Al-Iqram Alahee hridoy , https://github.com/wolf-dev,Fiverr.com/users/hridoy002 */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+ }
+ html, body {
+  min-height: 100%;
+}
+body {
+    
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    overflow-x: hidden;
+   
+   
+}
+/*---------------------------------------
+   Typorgraphy              
+-----------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'acme', sans-serif;
+}
+h1, h2, h4 {
+  font-weight: 500;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+    color: #272727;
+    font-size: 16px;
+    line-height: 32px;
+    margin: 0px;
+}
+h3 {
+  font-size: 16px;
+  line-height: 32px;
+}
+h4 {
+  color: #454545;
+  font-size: 18px;
+  line-height: 26px;
+}
+h5 {
+  letter-spacing: 0.5px;
+}
+p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #222;
+    font-family: 'Roboto',sans-serif;
+}
+}
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+/*---------------------------------------
+   Buttons               
+-----------------------------------------*/
+.container{
+  max-width: 610px !important;
+  width:100% !important; max-width:610px !important;
+   text-align:center !important; margin-top:0 !important;
+    margin-right: auto !important; margin-bottom:0 !important; margin-left: auto !important;
+}
+.banner {
+    position: relative;
+    margin-top: 60px;
+}
+.details-text {
+    position: relative;
+    padding: 20px 0;
+}
+.details-img {
+    position: relative;
+    margin-bottom: 20px;
+}
+.details-img img {
+    width: 230px;
+    height: 140px;
+}
+.out-img {
+    float: left;
+    /* padding-right: 5px; */
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.out-content {
+    position: relative;
+    padding: 0 20px;
+}
+.out-img i {
+    font-size: 80px;
+    margin-left: -51px;
+    margin-top: 28px;
+}
+.out-content p {
+    color: #222;
+    font-size: 14px;
+    font-family: 'Roboto',sans-serif;
+}
+.contact {
+    position: relative;
+    padding: 15px 0;
+  background: #ff6600;;
+    margin-bottom: 10px;
+}
+.contact h2 {
+    color: #fff;
+    font-size: 19px;
+}
+.contact-btn {
+    background: #fff;
+    border-radius: 0;
+    padding: 6px 24px;
+    font-size: 14px;
+}
+
+.case {
+    
+    position: relative;
+    padding: 40px 0;
+}
+.btn-more {
+    background: #E36C0A;
+    color: #fff;
+    border-radius: 0;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 6px 15px;
+    border: 1px solid #222;
+}
+.case-details h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.case-details{
+  margin-bottom: 20px;
+}
+.footer {
+    position: relative;
+  
+    
+}
+.footer-text p {
+    font-size: 14px;
+    padding:10px;
+  }
+  .footer .fot-copyright {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav>li {
+    position: relative;
+    top: 35px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.nav>li>a {
+    color: #222;
+    font-weight: 500;
+    letter-spacing: .7px;
+}
+.navbar-brand img {
+    width: 300px;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    background: transparent;
+}
+.border {
+    border: 1px solid #222;
+    padding-top: 25px;
+        padding-bottom: 10px;
+}
+.details-text h2 {
+    font-size: 24px;
+}
